@@ -416,7 +416,7 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--first-text-color);
-  padding-bottom: 54px;
+  margin-bottom: 54px;
 }
 
 .customers-list {
@@ -457,8 +457,8 @@ img {
   border: 1px solid var(--akcent-color);
 }
 
-.customers-item:hover .customers-icon,
-.customers-item:focus .customers-icon {
+.customers-link:hover .customers-icon,
+.customers-link:focus .customers-icon {
   fill: var(--akcent-color);
 }
 
@@ -621,11 +621,7 @@ img {
   align-items: baseline;
 }
 
-.footer-social-div {
-}
-
 .footer-address {
-  width: 231px;
   margin-right: 70px;
 }
 
